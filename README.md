@@ -1,5 +1,5 @@
 ## Home Assistant bash scripts for OpenWrt devices
-This script allows to remotely enable or disable a firewall rule on an OpenWrt router. I personaly use this to block internet from certain device(s) in my network on demand. Be aware that to create rule names without spaces.
+This script allows to remotely enable or disable a firewall rule on an OpenWrt router. I personaly use this to block internet from certain device(s) in my network on demand. Be aware to create firewall rule names without spaces.
 
 ### Features:
 * Switches:
