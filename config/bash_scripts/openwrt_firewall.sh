@@ -2,8 +2,8 @@
 # Script to enable/disable firewall rules by name
 
 # Define here your Router's IP address
-HOST="192.168.5.254"
-set -x
+HOST=""
+
 ### Functions
 function ssh_command () {
     ssh -i /config/bash_scripts/openwrt -o StrictHostKeyChecking=no root@"$HOST" "$1"
